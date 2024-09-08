@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'UbuntuBold';
+  src: url('/fonts/Ubuntu-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+body {
+  font-family: 'UbuntuBold', sans-serif;
+  
+}
+input{
+  @apply border rounded-md border-lightGray w-full outline-none text-marineBlue font-bold
+}
+input[type='checkbox']{
+  @apply w-auto 
+}
+form p{
+  @apply text-marineBlue font-semibold pb-2
+}
+button{
+  @apply bg-marineBlue border
+}
+
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
