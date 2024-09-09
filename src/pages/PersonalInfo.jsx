@@ -74,8 +74,9 @@ const PersonalInfo = () => {
               setPersonInfo({ ...personalInfo, name: e.target.value })
             }
             value={personalInfo.name}
+            placeholder="e.g Stephen King"
             type="text"
-            className="focus:border-marineBlue p-1 px-3"
+            className="focus:border-marineBlue p-1 px-3 placeholder:text-coolGray"
           />
         </label>
         <label htmlFor="" className="my-4 block">
@@ -95,8 +96,9 @@ const PersonalInfo = () => {
               validateEmail();
             }}
             value={personalInfo.email}
+            placeholder="e.g.stephenking@lorem.com"
             type="email"
-            className="focus:border-marineBlue p-1 px-3"
+            className="focus:border-marineBlue p-1 px-3 placeholder:text-coolGray"
           />
         </label>
         <label htmlFor="">
@@ -115,6 +117,7 @@ const PersonalInfo = () => {
               setPersonInfo({ ...personalInfo, phone: e.target.value })
             }
             value={personalInfo.phone}
+            placeholder="e.g +1 234 567 890"
             type="tel"
             className="focus:border-marineBlue p-1 px-3 "
           />
