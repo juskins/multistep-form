@@ -13,7 +13,7 @@ function App() {
     <stateContext.Provider
       value={{ selectedPlan, setSelectedPlan, isToggled, setIsToggled }}
     >
-      <div className="w-screen h-screen rounded-md bg-lightGray flex flex-col items-center justify-center">
+      <div className="w-screen h-screen rounded-md bg-lightBlue flex flex-col items-center justify-center">
         <div className="md:flex hidden h-[500px] min-w-[60%] max-w-[80%] p-4 rounded-md bg-white m-auto items-center justify-center">
           <div className="w-[30%] hidden md:block h-full">
             <Sidedbar />
